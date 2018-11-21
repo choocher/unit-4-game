@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    background-image: url("../images/background.png");
+}
+
+.numberToMatch {
+    background-color: green;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.winsAndLosses {
+    background-color: turquoise;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.header {
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    align-content: center;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20;
+    margin: 10px;
+}
+
+h1{
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h2{
+    font-size-adjust: inherit
+}
+
+.yourScore{
+	width: 15%;
+    height: 60px;
+    background-color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 40%;
+}
+
+.currentScore{
+	width: 15%;
+    height: 60px;
+    background-color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 40%;
+}
+
+#currentScore{
+	width: 15%;
+    height: 60px;
+    background-color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 40%;
+}
+
+#content{
+    background-color:ivory;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 10px;
+    width: 55%;
+    height: 55%;
+}
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    clear: both;
+    width: 55%;
+}
+
+.crystalImage {
+	height: 100px;
+    margin: 20px;
+    border: 5px solid white;
+    padding: 10px;
+    background-color: white;
+    border: 5px solid turquoise;
+    clear: both;
+}
+
